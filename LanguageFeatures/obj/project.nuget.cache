@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ae5bqN7Mda+EO0PNNmYO0n78quPWnc0QM3Um6XXFOXL1i0VSEBLsQU6UyEfhqkNHuKQKqAnrl0iaEqCvF4+PtQ==",
+  "success": true,
+  "projectFilePath": "D:\\.Net6-TestProjects\\LanguageFeatures\\LanguageFeatures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SafareeA\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\SafareeA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\SafareeA\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\SafareeA\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
