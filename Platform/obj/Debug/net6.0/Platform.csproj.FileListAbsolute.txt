@@ -20,3 +20,9 @@ D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\refint\Platform.dll
 D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.pdb
 D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.genruntimeconfig.cache
 D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\ref\Platform.dll
+D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.MvcApplicationPartsAssemblyInfo.cs
+D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.csproj.CopyComplete

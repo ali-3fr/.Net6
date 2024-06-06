@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "GO0/4vYjbYDDW7Q0pSi4ryHM9NgqPz3zf+CD7EReoptPw2A1nQOiVt6oUq2yxKmiLk3P9PEyoRn8KJFChieiiw==",
+  "dgSpecHash": "VSCRyXYmBFAvY4S+lw9Yj+LIax3ahMRWO5BFDhVT1yHCDDnN02VV/Z6HjWtATEmThLbvybS1geQlsH2KkG42hA==",
   "success": true,
   "projectFilePath": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Educational Projects\\.Net6\\.Net6\\Platform\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
