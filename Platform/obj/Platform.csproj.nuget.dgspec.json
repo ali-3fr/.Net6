@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net6-TestProjects\\Platform\\Platform.csproj": {}
+    "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj": {}
   },
   "projects": {
-    "D:\\.Net6-TestProjects\\Platform\\Platform.csproj": {
+    "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net6-TestProjects\\Platform\\Platform.csproj",
+        "projectUniqueName": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj",
         "projectName": "Platform",
-        "projectPath": "D:\\.Net6-TestProjects\\Platform\\Platform.csproj",
-        "packagesPath": "C:\\Users\\SafareeA\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net6-TestProjects\\Platform\\obj\\",
+        "projectPath": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SafareeA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
