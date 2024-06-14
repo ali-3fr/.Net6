@@ -26,3 +26,31 @@ D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGe
 D:\.Net6-TestProjects\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.MvcApplicationPartsAssemblyInfo.cs
 D:\.Net6-TestProjects\Platform\obj\Debug\net6.0\Platform.csproj.CopyComplete
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\appsettings.Development.json
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\appsettings.json
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\global.json
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Platform.exe
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Platform.deps.json
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Platform.runtimeconfig.json
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Platform.dll
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Platform.pdb
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Educational Projects\.Net6\.Net6\Platform\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.csproj.AssemblyReference.cache
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.GeneratedMSBuildEditorConfig.editorconfig
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.AssemblyInfoInputs.cache
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.AssemblyInfo.cs
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.csproj.CoreCompileInputs.cache
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.MvcApplicationPartsAssemblyInfo.cs
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.MvcApplicationPartsAssemblyInfo.cache
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\staticwebassets.build.json
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\staticwebassets.development.json
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\scopedcss\bundle\Platform.styles.css
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.csproj.CopyComplete
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.dll
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\refint\Platform.dll
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.pdb
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\Platform.genruntimeconfig.cache
+D:\Educational Projects\.Net6\.Net6\Platform\obj\Debug\net6.0\ref\Platform.dll
