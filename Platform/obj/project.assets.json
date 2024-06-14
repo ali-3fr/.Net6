@@ -447,19 +447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\SafareeA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj",
+      "projectUniqueName": "D:\\.Net6-TestProjects\\Platform\\Platform.csproj",
       "projectName": "Platform",
-      "projectPath": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\Platform.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Educational Projects\\.Net6\\.Net6\\Platform\\obj\\",
+      "projectPath": "D:\\.Net6-TestProjects\\Platform\\Platform.csproj",
+      "packagesPath": "C:\\Users\\SafareeA\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net6-TestProjects\\Platform\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SafareeA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -509,7 +513,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.423\\RuntimeIdentifierGraph.json"
+>>>>>>> 5a4aa08cab6600b38442aad20bf93c3efaf0038f
       }
     }
   }

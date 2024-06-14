@@ -10,11 +10,11 @@ namespace Platform
         {
 
             int? population =  null;
-            string? city = context.Request.RouteValues["city"] as string;
+            string? city = context.Request.RouteValues["city"] as string ?? "london";
 
 
 
-            switch((city ?? "").ToLower())
+            switch((city.ToLower() ?? "").ToLower())
             {
                 case "london":
                     population = 8_136_000;
