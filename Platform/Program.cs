@@ -4,34 +4,29 @@ using Platform.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var serviceConfig = builder.Configuration;
 
-builder.Services.AddSingleton<IResponseFormatter, TextResponseFormatter>();
+var serviceEnv = builder.Environment;
+
+
+//
+
 var app = builder.Build();
 
+var pipelineEnv  = app.Environment;
+//
 
-app.UseMiddleware<WeatherMiddlware>();
+app.UseMiddleware<LocationMiddleware>();
 
-//IResponseFormatter formatter = new TextResponseFormatter();
-
-app.MapGet("middleware/function", async (HttpContext context, IResponseFormatter formatter) =>
+app.MapGet("config", async (HttpContext context , IConfiguration config, IWebHostEnvironment env) =>
 {
-    await formatter.Format(context, "MiddleWareFunctrion it is snowing in chigaco");
- 
-});;
+    var defaultConfig = config["Logging:LogLevel:Default"];
+    await context.Response.WriteAsync($"default settings is {defaultConfig} \n");
 
-app.MapGet("endpoint/class", WeatherEndpoint.Endpoint);
-
-app.MapGet("endpoint/function", async (HttpContext context, IResponseFormatter formatter) =>
-{
-    await formatter.Format(context, "Endpoint Function: It is sunny in LA");
+    await context.Response.WriteAsync($"the env setting is {env.EnvironmentName}");
 
 });
 
-//app.MapGet("capital/{country}", Capital.Endpoint);
-//app.MapGet("population/{city}",Population.Endpoint)
-//    .WithMetadata(new RouteNameMetadata("population"));
+app.MapGet("/", async context => await context.Response.WriteAsync("Hello world")) ;
 
-app.MapFallback(async context => {
-    await context.Response.WriteAsync("Routed to fallback endpoint");
-});
 app.Run();
