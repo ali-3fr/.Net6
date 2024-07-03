@@ -9,23 +9,22 @@ var serviceConfig = builder.Configuration;
 var serviceEnv = builder.Environment;
 
 
+
 //
 
 var app = builder.Build();
 
+var logger = app.Services.GetRequiredService<ILoggerFactory>().CreateLogger("Pipeline");
+
 var pipelineEnv  = app.Environment;
 //
+logger.LogDebug("Pipeline configuration started");
 
-app.UseMiddleware<LocationMiddleware>();
+app.MapGet("population/{city?}",Population.Endpoint);
 
-app.MapGet("config", async (HttpContext context , IConfiguration config, IWebHostEnvironment env) =>
-{
-    var defaultConfig = config["Logging:LogLevel:Default"];
-    await context.Response.WriteAsync($"default settings is {defaultConfig} \n");
+logger.LogDebug("Pipeline configuration finished");
 
-    await context.Response.WriteAsync($"the env setting is {env.EnvironmentName}");
 
-});
 
 app.MapGet("/", async context => await context.Response.WriteAsync("Hello world")) ;
 
