@@ -1,31 +1,44 @@
-using Platform;
 using Platform.Services;
-
+using Platform.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var serviceConfig = builder.Configuration;
+//builder.Services.AddDistributedMemoryCache(opts => { opts.SizeLimit = 200; });
 
-var serviceEnv = builder.Environment;
+builder.Services.AddDistributedSqlServerCache(opts =>
+{
+    opts.ConnectionString = builder.Configuration["ConnectionStrings:CacheConnection"];
+    opts.SchemaName = "dbo";
+    opts.TableName = "DataCache";
+});
 
+builder.Services.AddResponseCaching();
+builder.Services.AddSingleton<IResponseFormatter, HtmlResponseFormatter>();
 
+builder.Services.AddDbContext<CalculationContext>(opts =>
+{
+    opts.UseSqlServer(builder.Configuration["ConnectionStrings:CalcConnection"]);
+});
 
-//
-
+builder.Services.AddTransient<SeedData>();
 var app = builder.Build();
 
-var logger = app.Services.GetRequiredService<ILoggerFactory>().CreateLogger("Pipeline");
+app.UseResponseCaching();
+app.MapEndpoint<Platform.SumEndpoint>("/sum/{count:int=1000000000}");
 
-var pipelineEnv  = app.Environment;
-//
-logger.LogDebug("Pipeline configuration started");
+app.MapGet("/", async context => {
+    await context.Response.WriteAsync("Hello World!");
+});
 
-app.MapGet("population/{city?}",Population.Endpoint);
+bool cmdLineInit  = (app.Configuration["INITDB"]??"false")=="true";
+if(app.Environment.IsDevelopment() || cmdLineInit)
+{
+    var seedData = app.Services.GetRequiredService<SeedData>();
+    seedData.SeedDatabase();
+}
+if (!cmdLineInit)
+{
+    app.Run();
+}
 
-logger.LogDebug("Pipeline configuration finished");
-
-
-
-app.MapGet("/", async context => await context.Response.WriteAsync("Hello world")) ;
-
-app.Run();
